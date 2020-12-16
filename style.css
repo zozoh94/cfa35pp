@@ -1,0 +1,105 @@
+/*
+ Theme Name:   CFA35PP
+ Description:  CFA35PP Theme
+ Author:       Enzo Hamelin
+ Template:     education-zone-pro
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  cfa35pp
+*/
+
+.thumb-text li {
+    width: 50%;
+}
+
+.welcome-note .col {
+	  width: 33.33%;
+}
+
+.choose-us .col {
+    width: 20%;
+}
+
+.team-section .col {
+    width: 25%;
+    text-align: center;
+}
+
+.team-section .col .text-holder {
+    text-align: left;
+}
+
+@media only screen and (max-width: 991px) {
+    .choose-us .col {
+        width: 100%;
+    }
+
+    .team-section .col {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .thumb-text li {
+        width: 100%;
+    }
+}
+
+.custom-logo {
+	  width: 150px;
+}
+.site-footer .widget-area .widget ul li, .site-footer .widget_media_image {
+	  text-align: center;
+}
+
+.team-section .col .text-holder .name {
+	  font-size: 19px;
+}
+
+.site-header .header-m, .mobile-header {
+    background-color: #dfd1ac;
+}
+
+.mobile-menu .main-navigation ul li a {
+	  color: #406f7d;
+}
+
+.site-title a, .site-description, .site-header.header-seven .header-m .info-box, .site-header.header-seven .header-m .info-box span a {
+	  color: black;
+}
+
+.main-navigation a {
+	  color: #dfd1ac;
+}
+
+.mobile-header .text-logo {
+	  display: none;
+}
+
+.mobile-header .custom-logo {
+	  height: 80px;
+	  width: auto;
+}
+
+.widget-area .widget form input[type="search"], .page-header form input[type="search"] {
+    width: 60%;
+}
+
+#primary .post .entry-content .job_listings ul li, #primary .page .entry-content .job_listings ul li,
+#primary .post .entry-content .single_job_listing ul li, #primary .page .entry-content .single_job_listing ul li
+#primary .post .entry-content .resumes ul li, #primary .page .entry-content .resumes ul li {
+    background: none;
+    padding-left: .5em;
+    list-style: none;
+}
+
+.single_job_listing .meta .job-type {
+    background-color: #f08d3c!important;
+}
+
+#primary .post .entry-content form input[type="submit"],
+#primary .page .entry-content form input[type="submit"] {
+    background: #60acc4;
+    border: 2px solid #60acc4;
+}
